@@ -2,16 +2,21 @@ import React from "react";
 import "./Results.css";
 
 
-const Results = () =>(
-// const Results = props => (
-//   <ul className="list-group results">
-//     {props.results.map(result => (
-//       <li key={result} className="list-group-item">
-//         <img alt="Dog" src={result} className="img-fluid" />
-//       </li>
-//     ))}
-//   </ul>
-    <p> results go here </p>
+const Results = props => (
+
+
+  <ul className="list-group results">
+    <h3>Search Results</h3>
+
+
+    {props.results.map(results => (
+      <li
+        key={results}
+        className="list-group-item">
+
+      </li>
+    ))}
+  </ul>
 );
 
 export default Results;

@@ -7,7 +7,7 @@ import "./Navbar.css";
 const Navbar = props => (
 
 <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
-  <a className="navbar-brand" href="/">Mongo Scraper</a>
+  <a className="navbar-brand" href="/">New York Times Scraper</a>
   <button className="navbar-toggler" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01"
     aria-expanded="false" aria-label="Toggle navigation">
     <span className="navbar-toggler-icon"></span>
@@ -23,9 +23,9 @@ const Navbar = props => (
       <li className="nav-item">
         <a className="nav-link" href="/saved">Saved Articles</a>
       </li>
-      <li className="nav-item">
+      {/* <li className="nav-item">
         <a className="btn btn-danger scrape-new">SCRAPE NEW ARTICLES!</a>
-      </li>
+      </li> */}
     </ul>
   </div>
 </nav>

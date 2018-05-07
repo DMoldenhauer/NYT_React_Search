@@ -2,15 +2,14 @@ import React from "react";
 import "./Saved.css";
 
 const Saved = props => (
-
-
-<div class="container-fluid article-container">
-
-Saved articles go here.
-</div>
-
-
-
-);
-
+    <ul className="list-group results">
+      {/* {props.results.map(result => ( */}
+        <li
+        // key={result} 
+        className="list-group-item">
+            something
+        </li>
+      {/* ))} */}
+    </ul>
+  );
 export default Saved;
